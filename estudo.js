@@ -37,8 +37,10 @@ function mat(){
     for(let i=1; i<=t; i++){
         r = v * (1+(j/100));
         v = r;
+        
     }
     document.write("Resultado " + r);
+    document.getElementById("TotalGeral").innerHTML = "total: "+(r);
 }
 function media(){
     let n1 = document.getElementById("v1").value
